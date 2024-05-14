@@ -30,3 +30,4 @@ void Weather::PrintWeatherInfo()
 	cout << "Облачность : " << this->clouds << endl;
 
 }
+

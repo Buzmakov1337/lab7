@@ -12,6 +12,10 @@ int main()
         JsonService js;
         Weather w = js.getWeather("weather.json");
         w.PrintWeatherInfo();
+
+        XmlService xs;
+        Weather w = xs.getWeather("weather.xml");
+        w.PrintWeatherInfo();
     }
     catch (exception& ex) {
         cout << ex.what() << endl;
