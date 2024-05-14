@@ -1,9 +1,9 @@
 #include <iostream>
-#include "json.hpp"
 #include "JsonService.h"
 #include "Service.h"
 #include "Weather.h"
-#include "XmlService.h"
+
+
 int main()
 {
 
@@ -16,6 +16,4 @@ int main()
     catch (exception& ex) {
         cout << ex.what() << endl;
     }
-
-
 }
